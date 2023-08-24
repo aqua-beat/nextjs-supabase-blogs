@@ -11,7 +11,7 @@ const Navigation = () => {
     <header className="border-b py-5">
       <div className="container max-w-screen-xl mx-auto relative flex justify-center items-center">
         <Link href="/" className=" font-bold text-xl cursor-pointer">
-          FullStackChannel
+          PazuBlog
         </Link>
 
         <div className="absolute right-5">
