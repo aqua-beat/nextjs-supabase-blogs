@@ -2,7 +2,7 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ['xxxxx.supabase.co'],
+    domains: ['twxnemjrsbsxcwnbyliu.supabase.co'],
   },
   experimental: {
     appDir: true,
