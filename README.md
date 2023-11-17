@@ -1,5 +1,4 @@
 #Next.js準備
-
 npx create-next-app@latest --example with-tailwindcss . --use-npm
 
 #App Directory 設定
