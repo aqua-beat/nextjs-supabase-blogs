@@ -1,4 +1,4 @@
-#Next.js準備（--example with-tailwindcssはオプションは TailwindCSS の設定がすでに組み込まれている）
+#Next.js準備
 npx create-next-app@latest --example with-tailwindcss . --use-npm
 
 #App Directory 設定
