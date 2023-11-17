@@ -1,7 +1,5 @@
-#Next.js準備
 npx create-next-app@latest --example with-tailwindcss . --use-npm
 
-#App Directory 設定
 /** @type {import('next').NextConfig} */
 module.exports = {
   reactStrictMode: true,
@@ -10,17 +8,13 @@ module.exports = {
   },
 }
 
-#ライブラリインストール
 npm i @supabase/auth-helpers-nextjs @supabase/supabase-js @types/uuid date-fns server-only sharp supabase uuid zustand
 npm i -D encoding
 
-#確認
 npm run dev
 
-#サーバを止める
 Ctrl + C
 
-#メインページ
 // メインページ
 const Page = () => {
   return (
@@ -32,7 +26,7 @@ const Page = () => {
 
 export default Page
 
-#layout
+
 import '../styles/globals.css'
 import Navigation from './components/navigation'
 
@@ -64,7 +58,7 @@ export default RootLayout
 
 import Link from 'next/link'
 
-// ナビゲーション
+
 const Navigation = () => {
   return (
     <header className="border-b py-5">
@@ -87,7 +81,7 @@ const Navigation = () => {
 
 export default Navigation
 
-#head
+
 // ヘッダー
 const Head = () => {
   return (
