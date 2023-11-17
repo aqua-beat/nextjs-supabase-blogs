@@ -1,5 +1,6 @@
 npx create-next-app@latest --example with-tailwindcss . --use-npm
 
+
 /** @type {import('next').NextConfig} */
 module.exports = {
   reactStrictMode: true,
