@@ -4,3 +4,4 @@
 
 https://zenn.dev/hathle/books/next-supabase-blog-book
 # PazooBlogs
+# PazooBlogs
